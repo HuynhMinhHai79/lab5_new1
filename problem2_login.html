@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style_login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script style="background-color: white;">
+        function validateForm() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+            if (username === '' || password === '') {
+                alert('Please enter complete information.');
+            }
+        }
+    </script>
+
+    <title>ABC BookStore</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="D:\CSE307_LAB\CSE307_LAB3\img_Practice3\img_Practice3\logoABCbook.png" alt="logo">
+        </div>
+        <div class="links">
+            <a href="D:\CSE307_LAB\CSE307_LAB2\Problem6d.html"><i class="fa fa-user fa-2x"
+                    aria-hidden="true"></i>login</a>
+            <a href="D:\CSE307_LAB\CSE307_LAB3\Problem1.html"></i>Registration</a>
+            <a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+
+
+        </div>
+    </header>
+    <nav>
+        <div class="search">
+            <input type="text" size="60px" name="search-input" id="search-input"
+                placeholder="Enter the title of the book..." required>
+            <input type="submit" name="search-button" class="search-button" value="Find books" required>
+        </div>
+
+        <div class="menu">
+
+
+            <span class="badge rounded-pill text-bg-primary bg-success  p-3"><a href="">HomePage </a></span>
+            <span class="badge rounded-pill text-bg-primary bg-success  p-3"> <a
+                    href="D:\CSE307_LAB\CSE307_LAB1\problem4.html">
+                    Introduction </a></span>
+            <span class="badge rounded-pill text-bg-primary bg-success p-3"> <a href="">Contact</a></span>
+            <span class="badge rounded-pill text-bg-primary bg-success"> <button
+                    class="btn btn-secondary dropdown-toggle bg-success" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    BOOK BY SUBJECT
+                </button>
+                <div class="bg-success">
+                    <ul class="dropdown-menu ">
+                        <li><button class="dropdown-item " type="button">Foreign Language</button></li>
+                        <li><button class="dropdown-item" type="button">Information Technology</button></li>
+                        <li><button class="dropdown-item" type="button">Law</button></li>
+                        <li><button class="dropdown-item" type="button">Literature</button></li>
+                        <li><button class="dropdown-item" type="button">Science and Technology</button></li>
+                        <li><button class="dropdown-item" type="button">Agriculture</button></li>
+                        <li><button class="dropdown-item" type="button">History of Geography</button></li>
+                        <li><button class="dropdown-item" type="button">Economics</button></li>
+                        <li><button class="dropdown-item" type="button">Listen to the song</button></li>
+                    </ul>
+                </div>
+            </span>
+            <div class="badge rounded-pill text-bg-primary bg-success btn-group dropend ">
+                <button type="button" class="btn btn-secondary dropdown-toggle  bg-success" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    BOOK BY PUBLISHER
+                </button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" type="button">Young publishers</button></li>
+                    <li><button class="dropdown-item" type="button">Statistics publishing house</button>
+                    </li>
+                    <li><button class="dropdown-item" type="button">Bronze needle</button></li>
+                    <li><button class="dropdown-item" type="button">Literature</button></li>
+                    <li><button class="dropdown-item" type="button">International University</button>
+                    </li>
+                    <li><button class="dropdown-item" type="button">Artistics carft culture</button>
+                    </li>
+                    <li><button class="dropdown-item" type="button">Cultture</button></li>
+                    <li><button class="dropdown-item" type="button">Histtory of Geography</button></li>
+                    <li><button class="dropdown-item" type="button">Science & Engineering</button></li>
+                </ul>
+            </div>
+            </ul>
+        </div>
+    </nav>
+    <div id="body"> <!-- Rules on the body of the page -->
+        <article>
+            <aside id="left">
+                <div id="a">
+                    <div>
+                        <table border="1" color: blue; style="border-spacing: 0; ">
+                            <tr>
+                                <td>
+                                    <div>
+                                        <h5>BOOKS BY SUBJECT</h5>
+                                    </div>
+                                    <div>
+                                        <ul >
+                                            <li><a class="" href="" style="color: rgb(109, 36, 186);">Foreign
+                                                    lanquage</a></li>
+                                            <li><a href="" style="color: rgb(109, 36, 186);">Information ttechnology</a>
+                                            </li>
+                                            <li><a href="" style="color: rgb(109, 36, 186);">Law</a></li>
+                                            <li><a href="" style="color:rgb(109, 36, 186);">Literature</a></li>
+                                            <li><a href="" style="color:rgb(109, 36, 186);">Science and technology</a>
+                                            </li>
+                                            <li><a href="" style="color:rgb(109, 36, 186);">Agriculture</a></li>
+                                            <li><a href="" style="color: rgb(109, 36, 186);">Histtory, Geography</a>
+                                            </li>
+                                            <li><a href="" style="color:rgb(109, 36, 186);">Economic</a></li>
+                                            <li><a href="" style="color:rgb(109, 36, 186);">Listen to the song</a></li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <table border="1" style="border-spacing: 0; color: blue;">
+                            <tr>
+                                <td>
+                                    <h5>
+                                        BOOKS BY PUBLICER</h5>
+                                    <ul style="list-style-type: circle;">
+                                        <li><a href="" style="color:rgb(109, 36, 186);">Young publishers</a></li>
+                                        <li><a href="" style="color: rgb(109, 36, 186);">Statistics publishing house</a>
+                                        </li>
+                                        <li><a href="" style="color:rgb(109, 36, 186);">Bronze needle</a></li>
+                                        <li><a href="" style="color: rgb(109, 36, 186);">Literature</a></li>
+                                        <li><a href="" style="color:rgb(109, 36, 186);">International University</a>
+                                        </li>
+                                        <li><a href="" style="color:rgb(109, 36, 186);">Artistics carft culture</a></li>
+                                        <li><a href="" style="color:rgb(109, 36, 186);">Cultture </a></li>
+                                        <li><a href="" style="color:rgb(109, 36, 186);">Histtory of Geography</a></li>
+                                        <li><a href="" style="color: rgb(109, 36, 186);">Science & Engineering</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+            </aside>
+            <section>
+                <div id="tableA">
+                    <div>
+                        <h4> LOG IN</h4>
+                    </div>
+                    <div style="width: 300px; margin-left: 160px;">
+                        <div class="row">
+                            <div class="" style="background-color: pink; margin-top: 20px; margin-bottom: 20px;">
+                                <div class="input-group border-bottom pb-2 mb-2">
+                                    <label for="Username" class="col-form-label pe-2">Username:</label>
+                                    <input type="text" id="username" aria-label="name" class="form-control w-50 mt-15">
+                                </div>
+                                <div class="input-group">
+                                    <label for="inputPassword" class="col-form-label pe-2">Password:</label>
+                                    <input type="password" id="password" aria-label="password"
+                                        class="form-control w-50 mt-0">
+                                </div>
+                            </div>
+                            <div class="text-center mt-2 " style="background-color:  rgb(185, 239, 238) ; margin-top: 20px;">
+                                <button type="button" class="btn btn-success " onclick="validateForm()">SIGN IN</button>
+
+                                <div class="d-flex " style="padding-left: 90px;">
+                                    <a href=" #" class="nav-link">Not a member? </a>
+                                    <a href="#">Register</a><br>
+                                </div>
+                                <a href="Change password">Change password</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside id="right">
+                <div>
+                    <table border="3" style="border-spacing: 0;">
+                        <tr>
+                            <td>
+                                <h5
+                                    style="background-color: blue; color: white; text-decoration: none; text-align: center;padding: 10px; height: 20; width: 280px;">
+                                    BESTSELLER</h5>
+
+                                <marquee direction="up" scrollamount="8" scrolldelay="80" onMouseMove="stop()"
+                                    onMouseOut="start()">
+                                    <p><a href="#"><img
+                                                src="D:\CSE307_LAB\CSE307_LAB3\img_Practice3\img_Practice3\EnglishForTech.jpg"
+                                                height="110px" width="90px"> English
+                                            For
+                                            Tech</a></p>
+                                </marquee> <br>
+                                <marquee direction="up" scrollamount="8" scrolldelay="80" onMouseMove="stop()"
+                                    onMouseOut="start()">
+                                    <p><a href="#"><img
+                                                src="D:\CSE307_LAB\CSE307_LAB3\img_Practice3\img_Practice3\BARC.png"
+                                                height="110px" width="90px"> BARC Computer Science</a></p>
+                                </marquee> <br>
+                                <marquee direction="up" scrollamount="8" scrolldelay="80" onMouseMove="stop()"
+                                    onMouseOut="start()">
+                                    <p><a href="#"><img
+                                                src="D:\CSE307_LAB\CSE307_LAB3\img_Practice3\img_Practice3\Davinci.png"
+                                                height="110px" width="90px"> The Davinci Code </a></p>
+                                </marquee> <br>
+                                <marquee direction="up" scrollamount="8" scrolldelay="80" onMouseMove="stop()"
+                                    onMouseOut="start()">
+                                    <p><a href="#"><img
+                                                src="D:\CSE307_LAB\CSE307_LAB3\img_Practice3\img_Practice3\harrypotter.png"
+                                                height="110px" width="90px"> Harry Potter</a></p>
+                                </marquee>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table border="3" style="border-spacing: 0;">
+                        <tr>
+                            <td>
+                                <h5>THE WEBSITE LINK</h5>
+                                <span style="text-align: center;">
+                                    <div style="background-color: rgb(231, 218, 231);">
+                                        <select id="month" name="month" required style="text-align: center;">
+                                            <option value="">---Select the linking page---</option>
+                                            <option value="">EnglishForTech</option>
+                                            <option value="">BARC-TEST</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <table border="3" style="border-spacing: 0;">
+                        <tr>
+                            <td>
+                                <h5
+                                    style="background-color: blue; color: white; text-decoration: none; text-align: center;padding: 10px; height: 20; width: 280px; ">
+                                    ACCSESS STATISTICS</h5>
+                                <h4>Total Accesss :500</h4>
+                                <h4> Online:3</h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    </div>
+    </aside>
+    </article>
+    </div>
+    <footer>
+        <div>
+            <th>©2016- ABC BookStore Allright Reserved</th> <br>
+            <q>Website is developed to be used as a hands-on exercise in Website Programing</q><br>
+            <td>Email: abcbookstore@gmail.com</td>
+        </div>
+    </footer>
+
+</body>
+
+</html>

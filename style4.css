@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+header .logo {
+  text-align: left;
+  width: 50%;
+}
+
+header .logo img {
+  width: 150px;
+  height: 100px;
+}
+
+header .links {
+  text-align: right;
+  width: 50%;
+}
+
+header {
+  display: flex;
+  align-items: end;
+}
+
+header .links a {
+  text-decoration: underline;
+  color: black;
+}
+
+header .links a:hover {
+  color: #044b7a;
+}
+
+header .links b {
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  background-color: white;
+  width: 1472px;
+  height: 35px;
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+float: right;
+  
+}
+
+nav .search input[type="text"] {
+  margin: 4px;
+}
+
+nav .search input[type="submit"] {
+  margin: 4px;
+}
+
+
+
+nav .menu ul {
+  padding: 5px;
+}
+
+nav .menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav .menu a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-button {
+  background-color: #14501f;
+  color: white;
+}
+
+article {
+  display: table-row;
+}
+
+aside#left,
+aside#right,
+section {
+  display: table-cell;
+  vertical-align: top;
+}
+aside#left ul#ul1 {
+
+  height: 280px;
+  width: 250px;
+  padding-left: 25px;
+}
+
+div#body {
+  clear: both;
+  width: auto;
+  height: auto;
+  background-color: rgba(221, 212, 222, 0.79);
+  box-shadow: 1 px;
+  margin-top: 15px;
+}
+
+aside#left {
+  width: 20%;
+}
+
+aside#right {
+  width: 20%;
+}
+
+ul#a a {
+  text-decoration: none;
+}
+
+ul#a a:hover {
+  color: #f8fafb;
+}
+
+ul#b a:hover {
+  color: #007acc;
+}
+
+aside#left ul {
+  list-style-type: square;
+  height: 280px;
+  width: 250px;
+  padding-left: 25px;
+}
+
+aside#left li {
+  margin: 5px;
+}
+
+aside#left h5 {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px
+}
+
+aside#left div#a table {
+  margin-bottom: 20px;
+}
+
+
+
+section {
+  background-color: aquamarine;
+  width: auto;
+  height: auto;
+
+}
+section div#tableA  {
+  width: 900px;
+  height: auto;
+  margin-left:55px ;
+  
+}
+section div#left img {
+width: 200px;
+height: 300px ;
+}
+
+section div#section {
+  width: 800px;
+  height: 310px;
+ 
+ 
+  margin-top: 10px;
+  display: flex;
+
+}
+
+section div#section div#left {
+  flex: 1;
+  width: 200px;
+}
+
+section div#left2 {
+  padding-left: 40px;
+  height: 200px;
+  
+}
+
+section div#section div#right {
+  flex: 2.5;
+  
+}
+
+section h5 {
+  text-align: center;
+  background-color: #007acc;
+  width: 870px;
+  height: 40px;
+  margin-top: 10px;
+}
+
+section div#section div#right .marquee {
+  height: 300px;
+}
+
+aside#right table {
+  margin-left: 45px;
+}
+
+aside#right h5 {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  width: 280px;
+}
+
+
+footer {
+  text-align: center;
+  width: 1400x;
+  height: 100px;
+  padding: 15px 15px;
+  background-color: green;
+  text-align: center;
+}
